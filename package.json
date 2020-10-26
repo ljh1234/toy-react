@@ -1,0 +1,29 @@
+{
+  "name": "toy-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline  --config webpack.config.js --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljh1234/toy-react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ljh1234/toy-react/issues"
+  },
+  "homepage": "https://github.com/ljh1234/toy-react#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.5.0",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
