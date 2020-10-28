@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack-dev-server --inline  --config webpack.config.js --open"
+    "dev": "webpack-dev-server --inline  --config webpack.config.js --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/ljh1234/toy-react#readme",
   "devDependencies": {
     "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-react-jsx": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "babel": "^6.23.0",
     "babel-loader": "^8.1.0",

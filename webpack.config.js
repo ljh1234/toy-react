@@ -10,7 +10,13 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        loader: 'babel-loader'
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env'],
+            plugins: [['@babel/plugin-transform-react-jsx', {pragma: 'createElement'}]]
+          }
+        }
       }
     ]
   },
